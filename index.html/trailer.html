@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+  <head>
+    <title>VIDEOS</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
+  </head>
+  
+  <body>
+    
+        
+    
+    <div class="container_page2">
+      
+      <nav2>
+          <main>
+             
+             <a href="album.html">
+               <div class="whitehole_nav_page2">
+                      <div class="dalamwhitehole_nav">
+                        <h4><u>BUY ALBUMS</u></h4>
+                      </div>
+                </div>
+             </a>
+             
+             
+             
+             <a href="index.html">
+               <div class="whitehole_nav home2">
+                      <div class="dalamwhitehole_nav">
+                       
+                      </div>
+                </div>
+             </a>
+             
+             
+             
+             <a href="trailer.html">
+               <div class="whitehole_nav_page2">
+                      <div class="dalamwhitehole_nav">
+                        <h4 style="margin-top: 3vw"><u>VIDEOS</u></h4>
+                      </div>
+                </div>
+             </a>
+        
+        
+          </main>
+        </nav2>
+        
+        <div class="card_page2_top">
+        
+        <h2>Some of our featured videos.</h2>
+        
+        <div class="carousel_container">
+          <div class="albumcarousel_2">
+            
+            <div class="mySlides fade">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/-BjZmE2gtdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          
+            <div class="mySlides fade">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/AqAJLh9wuZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          
+            <div class="mySlides fade">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Dkk9gvTmCXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="mySlides fade">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/3tmd-ClpJxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          
+            <div class="mySlides fade">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/AgFeZr5ptV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          
+            <div class="mySlides fade">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/QcIy9NiNbmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="mySlides fade">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/e-ORhEE9VVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot_page2 fade" onclick="currentSlide(1)"></span>
+            <span class="dot_page2 fade" onclick="currentSlide(2)"></span>
+            <span class="dot_page2 fade" onclick="currentSlide(3)"></span>
+            <span class="dot_page2 fade" onclick="currentSlide(4)"></span>
+            <span class="dot_page2 fade" onclick="currentSlide(5)"></span>
+            <span class="dot_page2 fade" onclick="currentSlide(6)"></span>
+            <span class="dot_page2 fade" onclick="currentSlide(7)"></span>
+          </div>
+            
+            
+          </div>
+        </div>
+        
+        </div>
+        
+      
+      
+      
+    <script>
+   var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+    </script>
+  </body>
+</html>
+

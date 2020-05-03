@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1 {
+  font-family: 'helvetica', Sans-Serif;
+  /*font-size: 3vw;*/
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'helvetica', Sans-Serif;
+  font-size: 3vw;
+  font-weight: normal;
+}
+
+.card_checkitout_homepage h3 {
+  text-align: center;
+  color: #ff704d;
+  font-weight: 100;
+  font-family: 'Pacifico', cursive;
+  
+}
+
+.card_checkitout_homepage:hover {
+  background-image: url('../image/checkhover.png');
+  background-position: center center;
+  background-size: cover ;
+  cursor: pointer;
+  /*color: white;*/
+  /*background-color: cyan;*/
+}
+
+.card_checkitout_homepage:hover h3 {
+  color: white;
+  /*background-color: cyan;*/
+}
+
+.about h4 {
+  text-align: center;
+  font-size: 1.8vw;
+  color: #993d00;
+  
+}
+
+.secondcard_homepage p {
+  /*text-align: center;*/
+  font-size: 1vw;
+  color: gray;
+  line-height: 2vw;
+  
+}
+
+.secondcard_homepage:hover p {
+ /*text-align: center;*/
+  font-size: 1vw;
+  color: gray;
+  line-height: 2vw;
+  animation-name: hometext;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+  
+
+@keyframes hometext {
+  from {font-size: 1vw; color: gray;}
+  to {font-size: 1.2vw; color: black;}
+}
+
+.completealbum h4 {
+  text-align: center;
+  font-size: 1.8vw;
+  color: #993d00;
+  
+}
+.completealbumtext p {
+  text-align: center;
+  font-size: 1.2vw;
+  color: black;
+  line-height: 2vw;
+  
+}
+
+.text:hover {
+  /*background-image: url('../image/button2.jpg');*/
+  background-position: center center;
+  /*background-size: cover ;*/
+  cursor: pointer;
+  /*color: white;*/
+  /*background-color: cyan;*/
+  text-decoration: underline;
+  animation-name: mymove;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {bottom: 0.3vw;}
+  to {bottom: 1vw; font-weight: bold; background-image: url('../image/button2.jpg'); }
+}
+
+.text1:hover {
+  /*background-image: url('../image/button2.jpg');*/
+  background-position: center center;
+  /*background-size: cover ;*/
+  cursor: pointer;
+  /*color: white;*/
+  /*background-color: cyan;*/
+  text-decoration: underline;
+  animation-name: mymove1;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove1 {
+  from {bottom: 6.5vw;}
+  to {bottom: 7.2vw; font-weight: bold; background-color: #ffcc66; opacity: 1; }
+}
+
+.description h4 {
+  color: white;
+  font-family: 'futura', Sans-Serif;
+  font-weight: 100;
+  font-size: 2vw;
+}
+
+.description b {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+  font-size: 2vw;
+}
+
+.whitehole_nav h4 {
+  text-align: center;
+  color: #6F5329  ;
+  font-size: 1.2vw;
+  font-family: 'futura', Sans-Serif;
+  /*font-weight: bold;*/
+}
+
+.whitehole_nav_page2 h4 {
+  text-align: center;
+  color: #261A09 ;
+  font-size: 1.3vw;
+  font-family: 'futura', Sans-Serif;
+  font-weight: bold;
+}
+
+.whitehole2_nav_page2 h4 {
+  text-align: center;
+  color: #261A09 ;
+  font-size: 1.3vw;
+  font-family: 'futura', Sans-Serif;
+  font-weight: bold;
+}
+
+.text_panjang h4 {
+  font-size: 1.35vw;
+  color: gray;
+}
+
+.dalamcard_page3_top h1 {
+  text-align: center;
+  color: white  ;
+  margin-bottom: 0.2vw;
+  font-size: 5vw;
+}
+
+.dalamcard_page3_top h2 {
+  text-align: center;
+  color: #ffffe6 ;
+  font-size: 2vw;
+}
+
+.dalamcard_page3_top_header h3 {
+  font-size: 1.75vw;
+  line-height: 2.4vw;
+  color: #4A4A4A  ;
+}
+
+.dalamcard_page3_top_header_right h3 {
+  font-size: 1.75vw;
+  line-height: 2.4vw;
+  color: #4A4A4A  ;
+}
+
+.card_nomor_page3 h2 {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: normal;
+  padding-top: 1.2vw;
+  color: white;
+}
+
+.card2_page3 h4 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 100%;
+  color : #FF9A6C;
+}
+
+.container_page2 h2 {
+  padding-top: 9vw;
+  text-align: center;
+}
+
+.card_page2_top h2 {
+  font-family: 'Pacifico', cursive;
+  color : #A45D3D;
+}
+
+.merch_card h4 {
+  text-align: center;
+  font-size: 1.8vw;
+  color: #993d00;
+  margin-bottom: 2.5vw;
+}
+
+  
+.merch_card p {
+  text-align: center;
+  font-size: 1.2vw;
+  color: black;
+  line-height: 2vw;
+  
+}
+
+.containerkupumerch p {
+  text-align: center;
+  font-size: 1.2vw;
+  color: black;
+  line-height: 2vw;
+  
+}
+
+.textmerchbutton:hover {
+  /*background-image: url('../image/button2.jpg');*/
+  background-position: center center;
+  /*background-size: cover ;*/
+  cursor: pointer;
+  /*color: white;*/
+  /*background-color: cyan;*/
+  text-decoration: underline;
+  animation-name: mymoves;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymoves {
+  from {margin-top:4vw; cursor:}
+  to {margin-top:3vw; font-weight: bold; background-image: url('../image/button2.jpg'); opacity: 1; }
+}
+

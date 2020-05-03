@@ -1,0 +1,980 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: salmon;
+}
+
+nav2 {
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 12vh;
+  /*background-color: salmon;*/
+  z-index: 10;
+  
+}
+
+
+
+.whitehole_nav {
+  width: 12.8vw;
+  height: 14vh;
+  float: left;
+  margin-top : 0;
+  margin-left: 15.4vw;
+  padding-top: 0.35vw;
+  background-image: url('../image/white_hole.png');
+  background-position: center center;
+  background-size: cover ;
+  /*background-color: cyan;*/
+  
+}
+
+.whitehole_nav.home2 {
+  background-image: url('../image/logo.png');
+  background-position: center bottom;
+  background-size: contain ;
+  background-repeat: no-repeat;
+}
+
+.whitehole_nav_page2 {
+  width: 12.8vw;
+  height: 12vh;
+  float: left;
+  margin-top : 0;
+  margin-left: 15.4vw;
+  /*background-color: cyan;*/
+  
+}
+
+.dalamwhitehole_nav {
+  width: 7.8vw;
+  padding-left: 0vw;
+  padding-right: 0vw;
+  margin-top : 4.3vh;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: brown;*/
+  
+}
+
+
+/*.maincontainer_homepage1 {*/
+/*  width: 100vw;*/
+/*  height: 290vw;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  background-image: url('../image/bghome.jpg');*/
+/*  background-position: center center;*/
+/*  background-size: contain ;*/
+/*  background-color: cyan;*/
+/*  display: none;*/
+/*}*/
+
+.maincontainer_homepage {
+  width: 100vw;
+  height: 366vw;
+  /*height: 560vw;*/
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../image/bghome.jpg');
+  background-position: center center;
+  background-size: contain ;
+  /*background-color: cyan;*/
+}
+
+.topcard_homepage {
+  width: 100vw;
+  height: 80vw;
+  /*margin: 0%;*/
+  padding-top: 59vw;
+  padding-left: 0vw;
+  padding-right: 0vw;
+  background-image: url('../image/home1.png');
+  background-position: center center;
+  background-size: cover ;
+  /*background-color: cyan;*/
+  
+}
+
+.card_checkitout_homepage {
+  width: 30vw;
+  height: 7vw;
+  /*margin: 0%;*/
+  padding-top: 1.3vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../image/check.png');
+  background-position: center center;
+  background-size: cover ;
+  /*background-color: cyan;*/
+  
+}
+
+.bunga {
+  width: 7vw;
+  height: 7vw;
+  margin-top: 7vw;
+  margin-left: 46.5vw;
+  background-image: url('../image/flower.png');
+  background-position: center center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  position: absolute;
+  /*background-color: red;*/
+  z-index: 5;
+  
+}
+
+.kepompong {
+  width: 7vw;
+  height: 7vw;
+  margin-top: 11.8vw;
+  margin-left: 46.5vw;
+  background-image: url('../image/kepompong.png');
+  background-position: center center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  position: absolute;
+  /*background-color: red;*/
+  z-index: 4;
+  
+}
+
+.about {
+  width: 14vw;
+  height: 3vw;
+  margin-top: 18vw;
+  margin-left: 43vw;
+  padding-top: 0.5vw;
+  position: absolute;
+  /*background-color: red;*/
+  z-index: 3;
+  
+}
+
+
+/*second card*/
+
+.secondcard_homepage {
+  width: 100vw;
+  height: 50vw;
+  padding-top: 3vw;
+  /*margin: 0%;*/
+  /*background-color: yellow;*/
+  
+}
+
+.card_about1_homepage {
+  width: 24vw;
+  height: 38vw;
+  margin-left: 10.5vw;
+  /*background-color: red;*/
+  float:left;
+}
+
+.card_about2_homepage {
+  width: 24vw;
+  height: 40vw;
+  margin-left: 3.5vw;
+  /*background-color: red;*/
+  float:left;
+}
+
+.card_about3_homepage {
+  width: 24vw;
+  height: 38vw;
+  margin-left: 3.5vw;
+  margin-right: 10.5vw;
+  /*background-color: red;*/
+  float:left;
+}
+
+
+.gerombolankupu {
+  width: 100vw;
+  height: 86.9565vw;
+  margin-top: 32vw;
+  /*margin-left: 0vw;*/
+  background-image: url('../image/gerombolankupu.png');
+  background-position: center center;
+  background-size: contain ;
+  background-repeat: no-repeat;
+  position: absolute;
+  /*background-color: red;*/
+  opacity: 0.9;
+  z-index: 10;
+  
+}
+
+.bawahkupu {
+  width: 100vw;
+  height: 86.9565vw;
+  margin-top: 68vw;
+  /*margin-left: 0vw;*/
+  background-image: url('../image/bawahkupu.png');
+  background-position: center center;
+  background-size: contain ;
+  background-repeat: no-repeat;
+  position: absolute;
+  /*background-color: red;*/
+  opacity: 0.9;
+  z-index: 9;
+  
+}
+
+.ulat {
+  width: 7vw;
+  height: 7vw;
+  margin-top: 105vw;
+  margin-left: 46.2vw;
+  background-image: url('../image/ulat.png');
+  background-position: center center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  position: absolute;
+  /*background-color: red;*/
+  z-index: 10;
+  
+}
+
+/*third card*/
+
+.thirdcard_homepage {
+  width: 100vw;
+  height: 45vw;
+  top: 65vw;
+  /*padding-top: 3vw;*/
+  /*margin: 0%;*/
+  /*background-color: yellow;*/
+  position: relative;
+  z-index : 15;
+  
+}
+
+.completealbum {
+  width: 28vw;
+  height: 3vw;
+  margin-top: 0.3vw;
+  margin-left: 36vw;
+  padding-top: 0.5vw;
+  position: absolute;
+  /*background-color: red;*/
+  /*z-index: 3;*/
+  
+}
+
+.completealbumtext {
+  width: 50vw;
+  height: 3vw;
+  margin-top: 5vw;
+  margin-left: 25vw;
+  padding-top: 0.5vw;
+  position: absolute;
+  /*background-color: red;*/
+  /*z-index: 3;*/
+  
+}
+
+.carousel_container {
+  width: 100vw;
+  height: 34vw;
+  margin-top: 11vw;
+  position: absolute;
+  /*background-color: cyan;*/
+  /*opacity: 0.4;*/
+}
+
+.albumcarousel {
+  width: 30vw;
+  height: 30vw;
+  margin-top: 3.5vw;
+  margin-left: 35vw;
+  position: absolute;
+  /*background-color: salmon;*/
+  
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+/*.slideshow-container {*/
+/*  max-width: 1000px;*/
+/*  position: relative;*/
+/*  margin: auto;*/
+/*}*/
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 3vw;
+  /*height: 10vw;*/
+  margin-top: -4vw;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  padding-bottom:2vw;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1vw 0 0 1vw;
+  padding-left: 1.1vw;
+  /*padding-right: vw;*/
+  padding-top: 2vw;
+  padding-bottom:2vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,224,39,0.5);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.2vw;
+  padding: 0.5vw;
+  position: absolute;
+  bottom: 0.3vw;
+  width: 25vw;
+  /*margin-right: auto;*/
+  background-image: url('../image/button1.jpg');
+  background-position: center center;
+  /*background-size: contain ;*/
+  background-repeat: no-repeat;
+  margin-left: 2.5vw;
+  text-align: center;
+  border-radius: 1vw 1vw 1vw 1vw;
+  /*background-color: black;*/
+  
+}
+
+.text1 {
+  color: #f2f2f2;
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.3vw;
+  position: relative;
+  bottom: 6.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  width: 10vw;
+  /*margin-right: auto;*/
+  margin-left:10vw;
+  text-align: center;
+  border-radius: 1vw 1vw 1vw 1vw;
+  background-color: salmon;
+  opacity: 0.7;
+  cursor: pointer;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #ffc34d;
+  font-size: 1.2vw;
+  padding: 1vw 1vw;
+  position: absolute;
+  top: 0;
+  /*background-color: red;*/
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  /*position: sticky;*/
+  height: 1.5vw;
+  width: 1.5vw;
+  margin-top: 2vw;
+  margin-left: 0vw;
+  margin-bottom: 38vw;
+  background-color: #bbb;
+  border-radius: 50vw;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index:100;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/*link color from blue to anything*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:white;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+/*fourth card*/
+
+.fourthcard_homepage {
+  width: 96vw;
+  height: 55vw;
+  margin-top: 70vw;
+  margin-left: 1vw;
+  /*background-color: red;*/
+  z-index : 25;
+  /*position: absolute;*/
+  /*opacity: 0.4;*/
+  display: none;
+  float:left;
+  border-radius: 100vw 100vw 100vw 100vw;
+  
+}
+
+.description {
+  width: 70vw;
+  height: 35vw;
+  margin-top: 2vw;
+  margin-left: 17vw;
+  background-color: transparent;
+  display: block;
+}
+
+.title {
+  width: 80vw;
+  margin-left: 17vw;
+  height: 15vw;
+  margin-top: 2vw;
+  /*background-color: cyan;*/
+  margin-bottom: 0vw;
+  display: block;
+  float: left;
+}
+
+.albuminfolover {
+  width: 96vw;
+  margin-left: 1vw;
+  height: 55vw;
+  float: left;
+  background-image: linear-gradient(to right, salmon, rgba(255,0,0,0)), url('../image/loverwallpaper.jpg');
+  background-size: cover;
+  display: none;
+  /*background-color: yellow;*/
+  border-radius: 100vw 100vw 100vw 100vw;
+}
+
+.albuminforeputation {
+  width: 96vw;
+  margin-left: 1vw;
+  height: 55vw;
+  float: left;
+  background-image: linear-gradient(to right, salmon, rgba(255,0,0,0.3)), url('../image/reputationwallpaper.jpg');
+  background-size: cover;
+  display: none;
+  /*background-color: yellow;*/
+  border-radius: 100vw 100vw 100vw 100vw;
+}
+
+.albuminfo1989 {
+  width: 96vw;
+  margin-left: 1vw;
+  height: 55vw;
+  float: left;
+  background-image: linear-gradient(to right, salmon, rgba(255,0,0,0)), url('../image/1989wallpaper.jpg');
+  background-size: cover;
+  display: none;
+  /*background-color: yellow;*/
+  border-radius: 100vw 100vw 100vw 100vw;
+}
+
+.albuminfored {
+  width: 96vw;
+  margin-left: 1vw;
+  height: 55vw;
+  float: left;
+  background-image: linear-gradient(to right, salmon, rgba(255,0,0,0)), url('../image/redwallpaper.jpg');
+  background-size: cover;
+  display: none;
+  /*background-color: yellow;*/
+  border-radius: 100vw 100vw 100vw 100vw;
+}
+
+.albuminfospeaknow {
+  width: 96vw;
+  margin-left: 1vw;
+  height: 55vw;
+  float: left;
+  background-image: linear-gradient(to right, salmon, rgba(255,0,0,0)), url('../image/speaknowwallpaper.jpg');
+  background-size: cover;
+  display: none;
+  /*background-color: yellow;*/
+  border-radius: 100vw 100vw 100vw 100vw;
+}
+
+.albuminfofearless {
+  width: 96vw;
+  margin-left: 1vw;
+  height: 55vw;
+  float: left;
+  background-image: linear-gradient(to right, salmon, rgba(255,0,0,0)), url('../image/fearlesswallpaper.jpg');
+  background-size: cover;
+  display: none;
+  /*background-color: yellow;*/
+  border-radius: 100vw 100vw 100vw 100vw;
+}
+
+.albuminfotaylorswift {
+  width: 96vw;
+  margin-left: 1vw;
+  height: 55vw;
+  float: left;
+  background-image: linear-gradient(to right, salmon, rgba(255,0,0,0)), url('../image/taylorswiftwallpaper.jpg');
+  background-size: cover;
+  display: none;
+  /*background-color: yellow;*/
+  border-radius: 100vw 100vw 100vw 100vw;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  color: white;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.fifthcard_homepage {
+  width: 100vw;
+  height: 120vw;
+  margin-top: 70vw;
+  /*margin-top: 120vw;*/
+  /*background-color: white;*/
+  z-index : 25;
+  position: relative;
+  /*opacity: 0.4;*/
+  display: block;
+  float: left;
+  
+}
+
+.fifthcard_homepageturun {
+  width: 100vw;
+  height: 120vw;
+  top: 240vw;
+  margin-top: 57vw;
+  background-color: cyan;
+  z-index : 75;
+  /*position: absolute;*/
+  /*opacity: 0.4;*/
+  display: none;
+  float: left;
+  
+}
+
+.kuputerbang {
+  width: 100vw;
+  height: 10vw;
+  /*top: 240vw;*/
+  margin-top: 3vw;
+  /*background-color: yellow;*/
+  /*z-index : 25;*/
+  position: absolute;
+  /*opacity: 0.4;*/
+  /*display: none;*/
+  float: left;
+  background-image: url('../image/kuputerbang.png');
+  background-position: left center;
+  background-size: contain ;
+  background-repeat: no-repeat;
+  
+}
+
+.merch_card {
+  width: 100vw;
+  height: 7vw;
+  /*top: 240vw;*/
+  margin-top: 11.5vw;
+  /*background-color: cyan;*/
+  /*z-index : 25;*/
+  position: absolute;
+  /*opacity: 0.4;*/
+  /*display: none;*/
+  float: left;
+}
+
+.containerkupumerch {
+  width: 100vw;
+  height: 40vw;
+  float: left;
+  /*background-color: brown;*/
+  margin-top: 18vw;
+}
+
+.cardtanyakupu {
+  width: 30vw;
+  height :40vw;
+  margin-left: 3vw;
+  margin-top:0vw;
+  float:left;
+  /*background-color: black;*/
+}
+
+.cardtanyakupu:hover {
+  animation-name: kupumoves;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  filter: saturate(100%);
+}
+
+@keyframes kupumoves {
+  from {margin-top:0vw; filter: saturate(100%);}
+  to {margin-top:0.5vw; font-weight: bold; filter: saturate(150%);}
+}
+
+.cardhapekupu {
+  width: 30vw;
+  height :40vw;
+  margin-left: 2vw;
+  margin-top:0vw;
+  float:left;
+  /*background-color: black;*/
+}
+
+.cardhapekupu:hover {
+  animation-name: kupumoves;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  filter: saturate(100%);
+}
+
+.cardkelaskupu {
+  width: 30vw;
+  height :40vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top:0vw;
+  float:left;
+  /*background-color: black;*/
+}
+
+.cardkelaskupu:hover {
+  animation-name: kupumoves;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  filter: saturate(100%);
+}
+
+.gambarkupu1 {
+  width:30vw;
+  height:30vw;
+  /*margin-left: 3vw;*/
+  background-image: url('../image/tanyakupu.png');
+  background-position: center center;
+  background-size: contain ;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+
+.gambarkupu2 {
+  width:30vw;
+  height:30vw;
+  /*margin-left: 2vw;*/
+  background-image: url('../image/hapekupu.png');
+  background-position: center center;
+  background-size: contain ;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.gambarkupu3 {
+  width:30vw;
+  height:30vw;
+  /*margin-left: 2vw;*/
+  /*margin-right: 3vw;*/
+  background-image: url('../image/kelaskupu.png');
+  background-position: center center;
+  background-size: contain ;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.textgambarkupu1 {
+  width:30vw;
+  height:8vw;
+  /*margin-top: 2vw;*/
+  /*margin-left: 3vw;*/
+  float: left;
+  /*background-color: salmon;*/
+  /*position: absolute;*/
+  /*z-index:35;*/
+}
+.textgambarkupu2 {
+  width:30vw;
+  height:8vw;
+  /*margin-top: 2vw;*/
+  /*margin-left: 2vw;*/
+  float: left;
+  /*background-color: salmon;*/
+  /*position: absolute;*/
+  /*z-index:35;*/
+}
+.textgambarkupu3 {
+  width:30vw;
+  height:8vw;
+  /*margin-top: 2vw;*/
+  /*margin-left: 2vw;*/
+  /*margin-right: 3vw;*/
+  float: left;
+  /*background-color: yellow;*/
+  /*position: absolute;*/
+  /*z-index:35;*/
+}
+
+.taylormerch {
+  width: 100vw;
+  height: 50vw;
+  float: left;
+  /*background-color: yellow;*/
+  margin-top: 0;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vw;
+
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  border-radius: 10000vw 10000vw 10000vw 10000vw;
+  background-color: orange;
+  opacity: 0.7;
+  margin: 1vw;
+}
+
+.item:hover{
+    flex: 7;
+    opacity:1;
+  }
+
+.item-1 {
+  background-image: url('../image/item1.png');
+  background-size: cover;
+
+}
+.item-2 {
+  background-image: url('../image/item2.png');
+  background-size: cover;
+
+}
+.item-3 {
+  background-image: url('../image/item3.png');
+  background-size: cover;
+  
+
+}
+.item-4 {
+  background-image: url('../image/item4.png');
+  background-size: cover;
+
+}
+
+.item-5 {
+  background-image: url('../image/item5.png');
+  background-size: cover;
+
+}
+
+.textmerchbutton {
+  color: #f2f2f2;
+  font-size: 1.7vw;
+  padding: 1vw;
+  /*position: absolute;*/
+  /*bottom: 0.3vw;*/
+  width: 30vw;
+  height: 5vw;
+  /*margin-right: auto;*/
+  background-color: orange;
+  background-position: center center;
+  /*background-size: contain ;*/
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:4vw;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 4vw 4vw 4vw 4vw;
+  /*background-color: black;*/
+  /*z-index: 40;*/
+  cursor: pointer;
+  
+}
+
+/**/
+/**/
+/**/
+/*SECONDSECONDSECONDSECONDSECONDSECONDSECONDSECONDSECONDSECONDsecond html !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/**/
+/**/
+/**/
+
+
+
+.container_page2 {
+  width: 100vw;
+  height: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../image/bghome.jpg');
+  background-position: center center;
+  background-size: contain ;
+  /*background-color: cyan;*/
+}
+
+.albumcarousel_2 {
+  width: 80vw;
+  height: 44.999vw;
+  margin-top: -10vw;
+  margin-left:auto;
+  margin-right: auto;
+  position: relative;
+  background-color: salmon;
+  
+}
+
+.albumcarousel_2 iframe,
+.albumcarousel_2 object,
+.albumcarousel_2 embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.card_page2_top {
+  width: 100vw;
+  height: 75vw;
+  margin-top: 0vw;
+  padding-top: 5.8vw;
+  background-image: url('../image/gerombolankupu1.png');
+  background-position: center bottom;
+  background-size: 116.8vw  ;
+  /*background-color: cyan;*/
+}
+
+.dot_page2 {
+  cursor: pointer;
+  /*position: sticky;*/
+  height: 1.5vw;
+  width: 1.5vw;
+  margin-top: 2vw;
+  margin-left: 0vw;
+  /*margin-bottom: 38vw;*/
+  background-color: #bbb;
+  border-radius: 50vw;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index:100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
